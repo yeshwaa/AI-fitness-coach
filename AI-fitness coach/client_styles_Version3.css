@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #f4f4f4;
+}
+h1 { color: #2d7d46; }
+#feedback { margin-top: 20px; font-size: 1.2em; color: #333; }
+form {
+  margin: 20px auto;
+  display: inline-block;
+  padding: 10px;
+  background: #fff;
+  border-radius: 10px;
+}
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+button {
+  padding: 5px 15px;
+  background: #2d7d46;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+#bmi-result {
+  margin-top: 10px;
+  font-weight: bold;
+}

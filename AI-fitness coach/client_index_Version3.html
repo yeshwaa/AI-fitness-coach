@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AI Fitness Coach</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/pose-detection"></script>
+</head>
+<body>
+  <h1>AI Fitness Coach</h1>
+  <video id="webcam" autoplay playsinline width="640" height="480"></video>
+  <canvas id="output" width="640" height="480"></canvas>
+  <div id="feedback"></div>
+  <div>
+    <h2>BMI Calculator</h2>
+    <form id="bmi-form">
+      <label>Weight (kg): <input type="number" id="weight" required></label>
+      <label>Height (cm): <input type="number" id="height" required></label>
+      <button type="submit">Calculate BMI</button>
+    </form>
+    <div id="bmi-result"></div>
+  </div>
+  <script src="app.js"></script>
+  <script src="bmi.js"></script>
+</body>
+</html>
